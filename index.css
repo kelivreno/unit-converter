@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* == HERO SECTION == */
+
 #hero {
     /* width: 550px; */
     /* height: 285px; */ 
@@ -14,3 +16,29 @@ body {
     text-align: center;
 
 }
+
+#number-conv {
+    background-color: #6943FF;
+    border: 2px solid white;
+    width: 117px;
+    height: 83px;
+    /* padding-top: 101px ;
+    padding-left: 217px; */
+    border-radius: 5px;
+    margin: auto;
+
+    color: white;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 58px;
+
+    /* leading-trim: NONE; */
+    line-height: 24.39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* == HERO SECTION == */
