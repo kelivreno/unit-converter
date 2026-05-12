@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-/* == HERO SECTION == */
+/* == START OF HERO SECTION == */
 
 #hero {
     /* width: 550px; */
@@ -74,4 +74,24 @@ body {
 
 }
 
-/* == HERO SECTION == */
+/* == END OF HERO SECTION == */
+
+/* == START OF CONVERSION SECTIONS */
+
+#conversion {
+    background-color: #f4f4f4;
+}
+
+.conv-card {
+    width: 500;
+    height: 108.57313537597656;
+    top: 321px;
+    left: 25px;
+    angle: 0 deg;
+    opacity: 1;
+    border-top-left-radius: 4.68px;
+    background: #FFFFFF;
+    margin: 10px auto 10px auto;
+
+
+}
