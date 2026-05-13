@@ -16,18 +16,18 @@ convertBtn.addEventListener("click", function() {
     let number = Number(inputEl.value)
 
     // Length: 
-    let feet = number*3.281
-    let meter = number*0.3048
+    let feet = (number*3.281).toFixed(3)
+    let meter = (number*0.3048).toFixed(3)
     lengthEl.innerHTML = `${number} meters = ${feet} feet | ${number} feet = ${meter} meters `
 
     // Volume:
-    let gallons = number*0.264
-    let liters = number*3.7854
+    let gallons = (number*0.264).toFixed(3)
+    let liters = (number*3.7854).toFixed(3)
     volumeEl.innerHTML = `${number} liters = ${gallons} gallons | ${number} gallons = ${liters} liters `
 
     // Mass: 
-    let pounds = number*2.204
-    let kilos = number*0.4536
+    let pounds = (number*2.204).toFixed(3)
+    let kilos = (number*0.4536).toFixed(3)
     massEl.innerHTML = `${number} kilos = ${pounds} pounds | ${number} pounds = ${kilos} kilos `
 
 })
