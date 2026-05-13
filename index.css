@@ -94,17 +94,18 @@ p {
     background-color: #f4f4f4;
     /* gap: 24px; */
     padding: 24px;
+    
 }
 
 .conv-card {
-    width: 500;
-    height: 108.57313537597656;
+    width: 500px;
+    min-height: 108.57313537597656;
     top: 321px;
     left: 25px;
     opacity: 1;
     border-top-left-radius: 4.68px;
     background: #FFFFFF;
-    margin: 15px auto 15px auto;
+    margin: 0 auto;
     /* gap: 24px */
 }
 
@@ -118,10 +119,11 @@ p {
     letter-spacing: 0%;
     text-align: center;
     color: #5A537B;
-    padding: 20px 20px;
+    padding: 20px 30px;
+
 }
 
-#text-container {
+.text-container {
     /* padding: 10px 30px; */
     text-align: center;
     justify-content: center;
